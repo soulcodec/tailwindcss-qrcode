@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <title>Vite App</title>
+    </head>
+    <body class="bg-yellow flex justify-center items-center h-screen font-outfit">
+        <div class="blog-card box-border flex flex-col bg-white w-[300px] border border-black rounded-3xl boxShadow p-4 gap-y-2">
+            <div class="blog-image">
+                <img class="rounded-xl" src="./assets/images/illustration-article.svg">
+            </div>
+            <div class="blog-content mt-4">
+                <a class="text-gray-950 font-extrabold bg-yellow rounded-md px-2.5 py-0.5 ">Learning</a>
+                <p class="my-4">Published 21 Dec 2023</p>
+                <h1 class="text-xl hover:text-yellow transition-colors duration-500 font-bold my-4">HTML & CSS foundations</h1>
+                <p class="text-gray-500">
+                    These languages are the backbone of every website,
+                    defining structure, content, and presentation.
+                </p>
+            </div>
+            <div class="blog-profile flex items-center gap-2.5">
+                <img class="w-8"
+                    src="./assets/images/image-avatar.webp"
+                />
+                <a class="font-bold" href="">Greg Hooper</a>
+            </div>
+            
+        </div>
+        <div id="app"></div>
+
+        <script type="module" src="/src/main.js"></script>
+    </body>
+</html>
